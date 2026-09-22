@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SORO Donassigué Mathieu — Développeur Full-Stack &amp; Data Engineer</title>
+  <meta name="description" content="Développeur Full-Stack &amp; Data Engineer spécialisé en Data Science et Intelligence Artificielle. Développement web, pipelines de données, modèles IA. Disponible pour missions freelance.">
+  <meta name="theme-color" content="#12151C">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SORO Donassigué Mathieu — Développeur Full-Stack & Data Engineer">
+  <meta property="og:description" content="Développement web, data engineering et intelligence artificielle. Portfolio et services freelance.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner container">
+      <a href="#accueil" class="navbar__brand">SM<span class="navbar__brand-dot">.</span></a>
+
+      <nav class="navbar__nav" id="navbar-nav" aria-label="Navigation principale">
+        <ul class="navbar__links">
+          <li><a href="#accueil" class="navbar__link">Accueil</a></li>
+          <li><a href="#apropos" class="navbar__link">À propos</a></li>
+          <li><a href="#competences" class="navbar__link">Compétences</a></li>
+          <li><a href="#projets" class="navbar__link">Projets</a></li>
+          <li><a href="#services" class="navbar__link">Services</a></li>
+          <li><a href="#parcours" class="navbar__link">Parcours</a></li>
+          <li><a href="#contact" class="navbar__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="navbar__actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Activer le thème sombre" aria-pressed="false">
+          <svg class="theme-toggle__icon theme-toggle__icon--sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+          </svg>
+          <svg class="theme-toggle__icon theme-toggle__icon--moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button class="navbar__burger" id="navbar-burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navbar-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="accueil">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__status">
+            <span class="hero__status-dot" aria-hidden="true"></span>
+            Disponible pour missions freelance
+          </p>
+
+          <h1 class="hero__title">
+            SORO Donassigué Mathieu
+          </h1>
+          <p class="hero__subtitle">Développeur Full-Stack &amp; Data Engineer — Data Science &amp; IA</p>
+
+          <p class="hero__pitch">
+            Je conçois des produits web et des systèmes de données qui tiennent la charge en
+            production — de l'application qui convertit vos visiteurs au pipeline qui alimente vos
+            décisions. Un seul interlocuteur pour couvrir tout le spectre : développement, data
+            engineering et intelligence artificielle.
+          </p>
+
+          <div class="hero__cta">
+            <a href="#projets" class="btn btn--primary">Voir mes projets</a>
+            <a href="assets/documents/cv.pdf" class="btn btn--outline" download>Télécharger le CV</a>
+          </div>
+
+          <div class="hero__links">
+            <a href="https://github.com/" class="hero__link" target="_blank" rel="noopener noreferrer" aria-label="Profil GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.17c-3.2.7-3.88-1.35-3.88-1.35-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.74.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/mathieu-soro/" class="hero__link" target="_blank" rel="noopener noreferrer" aria-label="Profil LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+            </a>
+            <a href="#contact" class="hero__link" aria-label="Aller au formulaire de contact">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 6l9 7 9-7"/><rect x="3" y="4" width="18" height="16" rx="2"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <svg class="node-graph" viewBox="0 0 440 420" xmlns="http://www.w3.org/2000/svg">
+            <g class="node-graph__edges" stroke="currentColor" stroke-width="1.2" fill="none">
+              <path d="M90 90 L220 60" />
+              <path d="M90 90 L70 220" />
+              <path d="M220 60 L360 100" />
+              <path d="M220 60 L220 200" />
+              <path d="M70 220 L220 200" />
+              <path d="M70 220 L120 340" />
+              <path d="M220 200 L360 100" />
+              <path d="M220 200 L300 300" />
+              <path d="M360 100 L300 300" />
+              <path d="M300 300 L120 340" />
+              <path d="M120 340 L240 380" />
+              <path d="M300 300 L240 380" />
+            </g>
+            <g class="node-graph__nodes">
+              <circle cx="90" cy="90" r="7" />
+              <circle cx="220" cy="60" r="5" />
+              <circle cx="360" cy="100" r="9" />
+              <circle cx="70" cy="220" r="5" />
+              <circle cx="220" cy="200" r="10" class="node-graph__node--accent" />
+              <circle cx="300" cy="300" r="6" />
+              <circle cx="120" cy="340" r="7" />
+              <circle cx="240" cy="380" r="5" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== À PROPOS ===== -->
+    <section class="section" id="apropos">
+      <div class="container">
+        <div class="section__heading">
+          <h2>À propos</h2>
+        </div>
+        <div class="about__grid">
+          <img class="about__photo" src="assets/images/profile/mathieu-soro.jpg" alt="Photo de SORO Donassigué Mathieu" width="360" height="450" loading="lazy">
+          <div class="section__body">
+            <p>
+              Mon parcours commence par un Baccalauréat scientifique (série D), suivi d'une formation
+              intensive en développement à l'Epitech Coding Academy. Je poursuis aujourd'hui une
+              Licence 3 en Data Science, complétée par un parcours Software Engineering &amp; Web
+              Development suivi chez IBM — une base double qui me permet de passer du code applicatif
+              à l'analyse de données sans rupture.
+            </p>
+            <p>
+              Je travaille avec rigueur et autonomie, je tiens mes délais sans sacrifier la qualité du
+              code ou des livrables, et je communique clairement sur l'avancement de chaque mission.
+              Je recherche actuellement des missions ou des postes de Développeur Full-Stack /
+              Backend, Data Engineer et AI Engineer, ainsi que des projets en Data Science et Data
+              Analyse.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COMPÉTENCES ===== -->
+    <section class="section section--alt" id="competences">
+      <div class="container">
+        <div class="section__heading">
+          <h2>Compétences</h2>
+          <p class="section__intro">Organisées par domaine plutôt que listées en vrac.</p>
+        </div>
+        <div class="skills-grid" id="skills-grid">
+          <!-- généré par js/ui.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJETS ===== -->
+    <section class="section" id="projets">
+      <div class="container">
+        <div class="section__heading">
+          <h2>Projets</h2>
+          <p class="section__intro">Une sélection de réalisations, filtrables par domaine.</p>
+        </div>
+
+        <div class="filters" id="project-filters" role="group" aria-label="Filtrer les projets par catégorie">
+          <button class="filter-btn is-active" data-filter="all" type="button">Tous</button>
+          <button class="filter-btn" data-filter="web" type="button">Web</button>
+          <button class="filter-btn" data-filter="data-engineering" type="button">Data Engineering</button>
+          <button class="filter-btn" data-filter="data-science" type="button">Data Science</button>
+          <button class="filter-btn" data-filter="ia" type="button">IA</button>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- généré par js/ui.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <div class="section__heading">
+          <h2>Services</h2>
+          <p class="section__intro">Missions freelance — du développement au déploiement de modèles IA.</p>
+        </div>
+        <div class="services-grid" id="services-grid">
+          <!-- généré par js/ui.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PARCOURS (Expériences + Certifications) ===== -->
+    <section class="section" id="parcours">
+      <div class="container">
+        <div class="section__heading">
+          <h2>Parcours</h2>
+          <p class="section__intro">Expériences professionnelles et formations.</p>
+        </div>
+
+        <div class="timeline-columns">
+          <div class="timeline-column">
+            <h3 class="timeline-column__title">Expérience</h3>
+            <ol class="timeline" id="experience-timeline">
+              <!-- généré par js/ui.js -->
+            </ol>
+          </div>
+
+          <div class="timeline-column">
+            <h3 class="timeline-column__title">Certifications &amp; formations</h3>
+            <ol class="timeline" id="certifications-timeline">
+              <!-- généré par js/ui.js -->
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section section--alt" id="contact">
+      <div class="container contact__grid">
+        <div class="section__heading">
+          <h2>Contact</h2>
+          <p class="section__intro">
+            Une offre, une mission freelance, ou simplement une question — écrivez-moi.
+          </p>
+          <ul class="contact__meta">
+            <li>sorodonassigue491@gmail.com</li>
+            <li>Abidjan, Cocody Angré — missions à distance possibles</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/VOTRE_ID_FORMSPREE" method="POST">
+          <div class="form-field">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+
+          <div class="form-field">
+            <label for="request-type">Type de demande</label>
+            <select id="request-type" name="request-type" required>
+              <option value="">Sélectionner…</option>
+              <option value="offre-emploi">Offre d'emploi</option>
+              <option value="mission-freelance">Mission freelance</option>
+              <option value="autre">Autre</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary form-submit">Envoyer le message</button>
+          <p class="form-note" id="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__brand">SORO Donassigué Mathieu</p>
+      <p class="footer__copy">© <span id="footer-year"></span> — Construit avec HTML, CSS &amp; JavaScript.</p>
+      <div class="footer__links">
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/mathieu-soro/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Retour en haut de page">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
